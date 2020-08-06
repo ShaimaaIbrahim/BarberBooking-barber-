@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "151317527698",
+    "firebase_url": "https://squawkerapp-e36dc.firebaseio.com",
+    "project_id": "squawkerapp-e36dc",
+    "storage_bucket": "squawkerapp-e36dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151317527698:android:4f6cb7fece21a571c2fa4b",
+        "android_client_info": {
+          "package_name": "com.google.androidbookingstaffapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151317527698-qj51rf002devk7063uujl3ffnfur1jrq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.androidbookingstaffapp",
+            "certificate_hash": "e40e1c23f283aecdc2f72045f606ced9c7377d89"
+          }
+        },
+        {
+          "client_id": "151317527698-ds1oudgim47vhudqtuelglhk4fduodii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHb5kZZPxXnWcIdBH6-W_rMtlbvDE7wwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151317527698-ds1oudgim47vhudqtuelglhk4fduodii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151317527698:android:2152d3bc7692c8bdc2fa4b",
+        "android_client_info": {
+          "package_name": "com.google.barberbookingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151317527698-75su8mk8sa7m747mscv8rap5n25v5alb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.barberbookingapp",
+            "certificate_hash": "e40e1c23f283aecdc2f72045f606ced9c7377d89"
+          }
+        },
+        {
+          "client_id": "151317527698-ds1oudgim47vhudqtuelglhk4fduodii.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHb5kZZPxXnWcIdBH6-W_rMtlbvDE7wwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151317527698-ds1oudgim47vhudqtuelglhk4fduodii.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

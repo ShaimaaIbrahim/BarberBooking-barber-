@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<RelativeLayout
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.SalonListActivity">
+<TextView
+    android:text="All Salon (0)"
+    android:id="@+id/txt_salon_count"
+    android:padding="8dp"
+    android:background="#333639"
+    android:textColor="@android:color/white"
+    android:layout_width="match_parent"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:fontFamily="@font/cairo"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/recycler_state"
+        android:layout_below="@+id/txt_salon_count"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>
+</layout>

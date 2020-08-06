@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardUseCompatPadding="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<ImageView
+    android:id="@+id/item_img"
+    android:layout_gravity="center_horizontal"
+    android:scaleType="fitCenter"
+    android:layout_width="200dp"
+    android:layout_height="150dp"
+    android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:text="Shopping Item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/cairo"
+            android:id="@+id/txt_item"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
